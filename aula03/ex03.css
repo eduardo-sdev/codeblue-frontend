@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    border: 1px solid #000;
+    margin: 0 300px;
+}
+
+ul {
+    list-style: none;
+}
