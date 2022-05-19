@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #900;
+    font: bold small-caps 20px Arial, sans-serif;
+}
+
+p{
+    font: 14px/20px Georgia, serif;
+    text-indent: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+li {
+    font: 14px/20px Georgia, serif;
+    color: #333;
+    list-style-type: none;
+}
+
+h2 {
+    font: 40px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+h4 {
+    font: 30px Arial, Helvetica, sans-serif;
+}
+
+th {
+    font: normal 14px/20px Georgia, serif;
+    color: #333;
+}
+
+span {
+    text-decoration: underline;
+}
