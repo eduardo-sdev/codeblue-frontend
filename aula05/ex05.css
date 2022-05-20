@@ -24,6 +24,7 @@
 .receita li{
     color: red;
     font-style: italic;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -35,4 +36,8 @@
 table {
     font-style: italic;
     width: 250px;
+}
+
+table th{
+    text-align: left;
 }
