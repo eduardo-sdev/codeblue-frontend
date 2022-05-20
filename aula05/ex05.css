@@ -41,3 +41,19 @@ table {
 table th{
     text-align: left;
 }
+
+@media only screen and (max-width: 700px) {
+
+    .header-receita { display: block; }
+
+    .header-receita figure { text-align: center; }
+
+    .infomacao-receita { margin: 0; }
+
+    .infomacao-receita p{
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .receita { display: block; }
+}
