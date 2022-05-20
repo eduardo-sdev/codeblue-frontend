@@ -1,0 +1,39 @@
+.header-receita {
+    display: flex;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.infomacao-receita {
+    display: block;
+    margin-left: 100px;
+}
+
+.infomacao-receita h2{
+    font-size: 30px;
+}
+
+.infomacao-receita p{
+    margin-left: 300px;
+    font-style: italic;
+}
+
+.receita {
+    display: flex;
+}
+
+.receita li{
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.receita li span{
+    color: black;
+    font-style: normal;
+}
+
+table {
+    font-style: italic;
+    width: 250px;
+}
