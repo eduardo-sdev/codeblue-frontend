@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.curriculo {
+  margin-left: 10%;
+  margin-top: 40px;
+}
+.curriculo .subtitle {
+  margin-bottom: 50px;
+}
+
+.list-projects{
+  padding: 10px;
+  list-style: none;
+}
+
+.list-projects li{
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.list-info{
+  padding: 10px;
+}
+
+.list-info li{
+  width: 300px;
+  padding: 5px;
+  color: #ccc;
+}
+
+.list-info li a{
+  width: 300px;
+  padding: 5px;
+  color: #444;
+}
+
+iframe {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.btn-voltar {
+  display: inline-flex;
+  position: fixed;
+  background: #405ca3;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 2px;
+  cursor: pointer;
+  top: 90%;
+  right: 88%;
+  text-decoration: none;
+}
+
+.btn-voltar:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
