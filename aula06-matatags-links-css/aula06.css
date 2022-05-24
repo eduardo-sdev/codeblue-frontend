@@ -17,4 +17,16 @@ p span{
     color: #900;
 }
 
+#exemplo span {
+    color: antiquewhite;
+}
+
+.teste.codeblue {
+    text-decoration: underline;
+}
+
+.teste  .exmplo{
+    color: #900;
+}
+
 

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+body {
+    font: 14px Arial, Helvetica sans-serif;
+    color:antiquewhite;
+}
+
+.box1 {
+    width: 200px;
+    height: 150px;
+    background-color: cadetblue;
+}
+
+.container {
+    width: 1200px;
+    background: #000;
+    margin: 0 auto;
+}
+
+h1 {
+    color: salmon;
+}
+
+span {
+    color:bisque;
+}
+
+h2 span{
+    color: bisque;
+}
+
+h2 span a{
+    color: bisque;
+}
