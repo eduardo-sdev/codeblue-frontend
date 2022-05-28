@@ -79,6 +79,14 @@ iframe {
   overflow: hidden;
 }
 
+.github-btn {
+  display: inline-flex;
+  position: fixed;
+  cursor: pointer;
+  top: 90%;
+  right: 5%;
+}
+
 .btn-voltar {
   display: inline-flex;
   position: fixed;
