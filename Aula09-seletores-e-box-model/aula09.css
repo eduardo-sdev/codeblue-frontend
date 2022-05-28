@@ -1,0 +1,201 @@
+/* RESET */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside, 
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+html{scroll-behavior:smooth;}
+body{
+  background:#fff;
+  color:#000;
+  font-family:"Cera-bold", Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height:1;
+}
+ol, 
+ul,
+li{list-style:none;}
+strong{font-family:Arial, Helvetica, sans-serif;}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+}
+img{width:100%;}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+textarea,
+select{
+  border:0;
+  border-bottom:1px solid #000;
+  color:#000;
+  padding:8px 0;
+  font:14px Arial, Helvetica, sans-serif;
+  background:transparent;
+  width:100%;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+textarea:focus,
+select:focus{border-color:#900;}
+input[type="submit"],
+input[type="button"],
+button{
+  border:1px solid #000;
+  text-transform:uppercase;
+  padding:10px 30px;
+  color:#000;
+  font:12px Arial, Helvetica, sans-serif;
+  background:transparent;
+}
+input[type="text"]:placeholder,
+input[type="email"]:placeholder,
+input[type="tel"]:placeholder,
+input[type="search"]:placeholder,
+input[type="url"]:placeholder{color:#666;}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+​html{scroll-behavior:smooth;}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+li:hover {
+    color: #900;
+    font-size: 30px;
+}
+
+ul li:first-child {
+    font-size: 20px;
+}
+
+ul li:last-child {
+    background: #900;
+}
+
+ul li:nth-child(4) {
+    background: #420;
+}
+
+input {
+    border: 5px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+
+input:focus {
+    border-color: red;
+}
+
+:focus {
+    outline: 0;
+}
+
+li::after {
+    content: 'after';
+}
+
+ul > li > a {
+    color: yellow;
+}
+
+input[type="text"]{
+    background: darkorange;
+}
+
+p ~ p {
+    color: wheat;
+}
+    
+li::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url('../Imagens/Logos/favicon.png');
+}
+
+.box1 {
+    width: 300px;
+    height: 80px;
+    background: #ccc;
+    overflow: auto;
+}
+
+.box2 {
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+}
+
+.box2:hover {
+    overflow: visible;
+}

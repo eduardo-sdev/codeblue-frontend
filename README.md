@@ -24,7 +24,7 @@
         </td>
         <td>
             <img src="./Imagens/projetos/links-codeblue.png">
-            <a href=""><strong>Links CodeBlue</strong></a>
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/links/index.html"><strong>Links CodeBlue</strong></a>
         </td>
     </tr>
 </table>
