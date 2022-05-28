@@ -6,15 +6,42 @@
 
 body {
   font-family: sans-serif;
-  overflow: hidden;
+}
+
+.menu {
+  width: 100%;
+  position: fixed;
+  background-color: #ccc;
+  top:0;
+}
+
+.menu .menu-list{
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  margin: 10px 0;
+}
+
+.menu-item a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: #444;
+}
+
+.menu-item a:hover{
+  color: #666;
 }
 
 .curriculo {
   margin-left: 10%;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .curriculo .subtitle {
   margin-bottom: 50px;
+}
+
+.section {
+  margin-top: 40px;
 }
 
 .list-projects{
@@ -37,7 +64,6 @@ body {
 .list-info li{
   width: 300px;
   padding: 5px;
-  color: #ccc;
 }
 
 .list-info li a{

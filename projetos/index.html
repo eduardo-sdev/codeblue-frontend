@@ -4,15 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo | Eduardo Silva</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="curriculo">
+    <div class="menu">
+        <ul class="menu-list">
+            <li class="menu-item">
+                <a href="./index.html">
+                    Home</a>
+            </li>
+            <li class="menu-item">
+                <a href="#sobre">
+                    Sobre</a>
+            </li>
+            <li class="menu-item">
+                <a href="#skills">
+                    Skills</a>
+            </li>
+            <li class="menu-item">
+                <a href="#projetos">
+                    Projetos</a>
+            </li>
+        </ul>
+    </div>
+    <div id="curriculo" class="curriculo">
         <h1 class="title">Eduardo Silva</h1>
         <h2 class="subtitle">Desenvolvedor Front-End</h1>
 
-        <h3 class="title-section">Informações</h3>
-        <section class="projetos">
+        <a name="sobre"></a>
+        <section class="projetos section">
+            <h3 class="title-section">Informações</h3>
             <ul class="list-info">
                 <li><a href="https://github.com/eduardo-sdev"
                         target="_blank" rel="noopener noreferrer"
@@ -23,8 +45,9 @@
             </ul>
         </section>
 
-        <h3 class="title-section">Skills</h3>
-        <section class="projetos">
+        <a name="skills"></a>
+        <section class="projetos section">
+            <h3 class="title-section">Skills</h3>
             <ul class="list-info">
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -33,8 +56,9 @@
             </ul>
         </section>
 
+        <a name="projetos"></a>
+        <section class="projetos section">
         <h3 class="title-section">Projetos</h3>
-        <section class="projetos">
             <ul class="list-projects">
                 <li>
                     <a href="./projetos/cardapio/index.html">
