@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.p-box{
+    position: relative;
+    top: 200px;
+    left: 400px;
+    background: #900;
+    width: 400px;
+    height: 400px;
+}
+
+.p-box1 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    right: 10px;
+    bottom: 20px;
+    background: #300;
+    z-index: 1;
+}
+
+.p-box2 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    right: 10px;
+    bottom: 20px;
+    background: #380;
+}
+
+.fone {
+    position: fixed;
+    background: #009;
+    padding: 10px;
+    color: #fff;
+    width: 180px;
+    font: 16px Arial;
+    line-height: 1;
+    right: -150px;
+    bottom: 50%;
+    z-index: 10;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.fone:hover {
+    transition: 1s ease all;
+    right: 0;
+}
+
+.f-box {
+    background: #990;
+    width: 500px;
+    height: 200px;
+}
+
+.f-box-1 {
+    background: #790;
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    overflow: auto;
+}
+
+.f-box-2 {
+    background: #989;
+    width: 50px;
+    height: 100px;
+    float: right;
+}
+
+.fix{
+    clear: both;
+}
