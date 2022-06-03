@@ -1,0 +1,105 @@
+html,
+body,
+div,
+h1,
+h2,
+p,
+a,
+img,
+ul,
+li,
+{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+body{
+  background:#fff;
+  color:#000;
+  font-family: 'Arial', sans-serif;
+  font-size:18px;
+  line-height:25px;
+}
+ul,
+li{list-style:none;}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.topo {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.menu {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 110px;
+}
+
+.menu li{
+  float: left;
+  width: 250px;
+  padding: 12px 0;
+  background-color: #990000;
+  border: 1px solid #ccc;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background-color: #bb0000;
+}
+
+.menu a{
+  color: #fff;
+}
+
+.conteudo div {
+  width: 360px;
+  float: left;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.conteudo div:nth-child(2){
+  margin: 0 24px;
+}
+
+.conteudo h2 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  margin-bottom: 11px;
+}
+
+.conteudo p a {
+  color: #990000;
+  text-decoration:underline;
+  float: right;
+}
+
+.rodape p {
+  width: 97%;
+  text-align: center;
+  float: left;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
