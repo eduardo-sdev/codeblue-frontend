@@ -7,7 +7,7 @@
 # Projeto Curricolo
 
 <p>
-    <a href="https://codeblue-frontend-ten.vercel.app/">Ver Curricolo online</a> 
+    <a href="https://codeblue-frontend-ten.vercel.app/">Ver Curricolo online</a>
 </p>
 
 # Capitura das aulas
@@ -26,5 +26,10 @@
             <img src="./Imagens/projetos/links-codeblue.png">
             <a href="https://codeblue-frontend-ten.vercel.app/projetos/links/index.html"><strong>Links CodeBlue</strong></a>
         </td>
+        <td>
+            <img  src="./Imagens/projetos/noticias.png">
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/noticias/index.html"><strong>Notícias<strong></a>
+        </td>
     </tr>
 </table>
+
