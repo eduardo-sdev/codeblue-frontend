@@ -41,23 +41,23 @@ a:hover{
 
 .topo {
   text-align: center;
-  margin: 30px 0;
 }
 
 .menu {
   text-align: center;
-  width: 100%;
   margin-bottom: 110px;
+  position: relative;
+  right:35px;
 }
 
 .menu li{
   float: left;
-  width: 250px;
-  padding: 12px 0;
+  width: 248px;
   background-color: #990000;
   border: 1px solid #ccc;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 12px 0;
 }
 
 .menu li:hover {
@@ -73,6 +73,7 @@ a:hover{
   float: left;
   border: 2px solid black;
   padding: 20px;
+  margin: 0;
 }
 
 .conteudo div:nth-child(2){
@@ -84,7 +85,6 @@ a:hover{
   font-size: 20px;
   font-weight: bold;
   border-bottom: 3px solid black;
-  margin-bottom: 11px;
 }
 
 .conteudo p a {
