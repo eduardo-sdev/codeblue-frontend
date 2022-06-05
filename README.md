@@ -19,16 +19,22 @@
 <table>
     <tr>
         <td>
-            <img  src="./Imagens/projetos/tudo-gostoso.png">
+            <img width="300" src="./Imagens/projetos/tudo-gostoso.png">
             <a href="https://codeblue-frontend-ten.vercel.app/projetos/cardapio/index.html"><strong>Tudo Gostoso<strong></a>
         </td>
         <td>
-            <img src="./Imagens/projetos/links-codeblue.png">
+            <img width="300"src="./Imagens/projetos/links-codeblue.png">
             <a href="https://codeblue-frontend-ten.vercel.app/projetos/links/index.html"><strong>Links CodeBlue</strong></a>
         </td>
         <td>
-            <img  src="./Imagens/projetos/noticias.png">
+            <img width="300" src="./Imagens/projetos/noticias.png">
             <a href="https://codeblue-frontend-ten.vercel.app/projetos/noticias/index.html"><strong>Notícias<strong></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img width="300" src="./Imagens/projetos/noticiasv2.png">
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/noticias-v2/index.html"><strong>Notícias V2<strong></a>
         </td>
     </tr>
 </table>
