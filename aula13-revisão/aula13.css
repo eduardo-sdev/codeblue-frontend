@@ -1,0 +1,168 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+img,
+ul,
+li,
+main,
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section
+{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+body{
+  background:#fff;
+  color:#000;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size:20px;
+  line-height:28px;
+}
+ul,
+li{list-style:none;}
+strong{font-weight:bold;}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+img{width: 100%;}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+h1 {
+  width: 250px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #990;
+}
+
+/* CONTEÚDO */
+/* BANNER BLOG */
+.banner {
+  position: relative;
+}
+
+.banner h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font: bold 40px/1 Arial, Helvetica, sans-serif;
+  transform: translate(-50%,-50%);
+}
+
+/* POST */
+
+.post-main {
+  background: #fff;
+  padding: 30px;
+  position: relative;
+  top: -50px;
+  display: flex;
+  gap: 40px;
+}
+
+.post-main > article{
+  width: 80%;
+}
+.post-content {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.post-content img {
+  width: fit-content;
+}
+
+.post-content h4 {
+  margin: 10px 0 20px;
+  font-size: 18px;
+}
+
+.cat-1{
+  color: #900;
+}
+
+.cat-2{
+  color: #009;
+}
+
+.post-content h3 {
+  font: bold 30px Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.post-text {
+  color: #aaa;
+  font-size: 18px;
+  margin-bottom: 10px;
+  height: 75px;
+  overflow: hidden;
+}
+
+/* sidebar */
+
+aside {
+  width: 20%;
+}
+
+aside h3 {
+  margin: 30px 0 20px;
+  font: bold 22px Arial, Helvetica, sans-serif;
+}
+
+aside li{
+  padding: 10px 0;
+  line-height: 30px;
+}
+
+aside a {
+  color: #00d;
+  font-size: 16px;
+}
+
