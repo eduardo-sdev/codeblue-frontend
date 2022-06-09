@@ -20,7 +20,7 @@
     <tr>
         <td>
             <img width="300" src="./Imagens/projetos/tudo-gostoso.png">
-            <a href="https://codeblue-frontend-ten.vercel.app/projetos/cardapio/index.html"><strong>Tudo Gostoso<strong></a>
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/cardapio/index.html"><strong>Tudo Gostoso</strong></a>
         </td>
         <td>
             <img width="300"src="./Imagens/projetos/links-codeblue.png">
@@ -28,13 +28,17 @@
         </td>
         <td>
             <img width="300" src="./Imagens/projetos/noticias.png">
-            <a href="https://codeblue-frontend-ten.vercel.app/projetos/noticias/index.html"><strong>Notícias<strong></a>
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/noticias/index.html"><strong>Notícias</strong></a>
         </td>
     </tr>
     <tr>
         <td>
             <img width="300" src="./Imagens/projetos/noticiasv2.png">
-            <a href="https://codeblue-frontend-ten.vercel.app/projetos/noticias-v2/index.html"><strong>Notícias V2<strong></a>
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/noticias-v2/index.html"><strong>Notícias V2</strong></a>
+        </td>
+        <td>
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/foto-criativa/index.html"><strong>Foto Criativa</strong></a>
+            <img width="110" src="./Imagens/projetos/foto-criativa.png">
         </td>
     </tr>
 </table>

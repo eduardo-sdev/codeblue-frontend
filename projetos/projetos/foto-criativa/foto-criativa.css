@@ -1,0 +1,228 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+img,
+ul,
+li,
+main,
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section
+{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+body{
+  background:#fff;
+  color:#000;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size:20px;
+  line-height:28px;
+}
+ul,
+li{list-style:none;}
+strong{font-weight:bold;}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+img{width: 100%;}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+header .logo {
+  display: flex;
+  color: #DA9E02;
+}
+
+.logo img{
+  padding-left: 20px;
+}
+
+.logo h2{
+  padding: 30px 0;
+  line-height: 20px;
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+}
+
+nav  {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+    display: flex;
+    text-transform: uppercase;
+}
+
+nav a {
+  padding: 20px;
+  color: #555;
+}
+
+nav a:hover {
+  color: #DA9E02;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner h2{
+  position: absolute;
+  font: bold 40px/1 Arial,sans-serif;
+  top: 40%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  display: flex;
+  position: relative;
+  top: -80px;
+  width: 97%;
+  background: white;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.posts-container {
+  width: 78%;
+}
+
+.posts-container .post:first-child{
+   margin-top: 50px;
+}
+
+.post {
+  display: flex;
+  padding: 40px;
+}
+
+.post h4{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.post h3{
+  font: bold 30px 'Roboto Slab', serif;
+  margin-bottom: 10px;
+}
+
+.post h3:hover{
+  text-decoration: underline;
+}
+
+.cor-1 {
+  color: #b478bf;
+}
+
+.cor-2 {
+  color: #56d1e3;
+}
+
+.post article{
+  margin-left: 30px;
+  height: 30px;
+}
+
+.post .text{
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.post .data {
+  font-size: 18px;
+}
+  
+.post a:hover {
+  text-decoration: underline;
+}
+
+
+.post img{
+  display: flex;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+/* aside */
+
+aside {
+  width: 20%;
+}
+
+.search {
+  margin: 50px 0; 
+  padding-right: 50px; 
+}
+
+.search input{
+  width: 60%;
+  border: none;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.search input::placeholder{
+  color: #ccc;
+  font-size: 18px;
+}
+
+.search button{
+  background: #DA9E02;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+article h4 {
+  font: bold 20px 'Roboto Slab', serif;
+  margin-bottom: 10px;
+}
+
+.list-posts a{
+  color: #7390aa;
+  line-height: 45px;
+}
+
+.list-posts a:hover{
+  text-decoration: underline;
+}

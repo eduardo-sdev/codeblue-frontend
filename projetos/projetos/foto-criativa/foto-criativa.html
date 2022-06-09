@@ -2,25 +2,130 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
-        <link rel="stylesheet" href="./exe13.css">
+        <title>Foto Criativa</title>
+        <link rel="stylesheet" href="./foto-criativa.css">
+        <link rel="shortcut icon" href="../../Imagens/Logos/foto-criativa.svg">
     </head>
     <body>
-        <header>
+        <header class="container">
             <h1>
-                <a href="/">
-                    <img src="../../Imagens/logo-codeblue.png" alt="Codeblue">
+                <a class="logo" href="/">
+                    <img src="../../Imagens/Logos/foto-criativa.svg" alt="logo camera fotografica">
+                    <h2>foto criativa</h2>
                 </a>
             </h1>
 
             <nav>
-
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">quem somos</a></li>
+                    <li><a href="#">fotos</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
             </nav>
         </header>
-        <main>
+        <main >
+            <section class="banner">
+                <figure>
+                    <img src="../../Imagens/Fotos/banner-foto-criativa.png" loading="lazy" alt="rato de pelucia olhando um jornal">
+                </figure>
+                <a href="#blog"><h2>Blog</h2></a>
+            </section>
 
+            <section class="container content">
+                <article class="posts-container">
+                    <article class="post">
+                        <a href="#">
+                            <figure>
+                                <img loading="lazy" src="../../Imagens/Fotos/bincando-com-fogo.png" alt="">
+                            </figure> 
+                        </a>
+
+                        <article>
+                            <h4 class="cor-1">NEGÓCIOS</h4>
+                            <a href="#">
+                                <h3>Brincando com fogo</h3>
+                            </a>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque at mattis odio. Aliquam erat volutpat. Nunc
+                                blandit nisi nunc, ut condimentum ipsum congue ut.
+                            </p>
+                            <p class="data">Por <strong><a href="#">bilibordallo</a></strong>, 23 horas atrás</p>
+                        </article>
+                    </article>
+
+                    <article class="post">
+                        <a href="#">
+                            <figure>
+                                <img loading="lazy" src="../../Imagens/Fotos/necessidade-da-invencao.png" alt="">
+                            </figure>
+                        </a>
+                        <article>
+                            <h4 class="cor-2">NEGÓCIOS</h4>
+                            <a href="#">
+                                <h3>A necessidade é a mãe da invenção</h3>
+                            </a>
+                            <p class="text">
+                                Ut viverra et justo quis ullamcorper. Aliquam mattis
+                                magna ut odio facilisis maximus. Nullam vitae risus vel
+                                nunc congue bibendum nec non urna.
+                            </p>
+                            <p class="data">
+                                Por <strong><a href="#">bilibordallo</a></strong>, 2 dias atrás
+                            </p>
+                        </article>
+                    </article>
+
+                    <article class="post">
+                        <a href="#">
+                            <figure>
+                                <img loading="lazy" src="../../Imagens/Fotos/produzir-fotos-criativas.jpg" alt="reunião de empresa">
+                            </figure>
+                        </a>
+                        <article>
+                            <h4 class="cor-1">NEGÓCIOS</h4>
+                            <a href="#">
+                                <h3>Como produzir fotos criativa para a sua empresa</h3>
+                            </a>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Natus autem maiores error nesciunt vel obcaecati ipsam dolores
+                            </p>
+                            <p class="data">
+                                Por <strong><a href="#">bilibordallo</a></strong>, 5 dias atrás
+                            </p>
+                        </article>
+                    </article>
+
+                </article>
+
+                <aside>
+                    <article class="search">
+                        <input placeholder="Pesquisar..." type="text">
+                        <button>
+                            <img src="../../Imagens/Icons/lupa.svg" alt="icone de lupa">
+                        </button>
+                    </article>
+
+                    <article>
+                        <h4>Posts recentes</h4>
+                        <ul class="list-posts">
+                            <li><a href="#">Brincando com fogo</a></li>
+                            <li><a href="#">A necessidade é a mãe da invenção</a></li>
+                            <li><a href="#">Como produzir fotos criativas para a sua empresa</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h4>Comentários</h4>
+                        <br>
+                    </article>
+                    <article>
+                        <h4>Arquivos</h4>
+                    </article>
+                </aside>
+            </section>
         </main>
-
     </body>
 </html>
-
