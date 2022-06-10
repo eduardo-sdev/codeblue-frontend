@@ -47,7 +47,7 @@ img{width: 100%;}
 :hover{transition:.3s ease;}
 
 .container {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -60,6 +60,10 @@ header {
 
 h1 {
   width: 250px;
+}
+
+.hamburguer {
+
 }
 
 nav ul {
@@ -166,3 +170,41 @@ aside a {
   font-size: 16px;
 }
 
+@media screen and (max-width:600px){
+  .container {
+    max-width: 100%;
+  }
+
+  .hamburguer div{
+    display: block;
+    width: 18px;
+    border-bottom: 2px solid #000;
+    margin: 3px 0;
+  }
+
+
+  nav{position: relative;}
+
+  nav ul {
+    display: none;
+    position: absolute;
+    left: -200%;
+    top: 100%;
+    z-index: 99;
+    background: #fff;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  .post-main {
+    display: block;
+    top: 10px;
+  }
+
+  .post-content {
+    display: block;
+  }
+
+}
