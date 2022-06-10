@@ -1,0 +1,80 @@
+html,
+body,
+div,
+span,
+h1,
+h3,
+p,
+a,
+img,
+main,
+article,
+figure,
+header,
+section
+{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+body{
+  background:#fff;
+  color:#000;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size:18px;
+  line-height:28px;
+}
+img{width: 100%;}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.festival {
+    display: flex;
+    margin: 100px 0;
+}
+
+.festival figure {
+    margin-right: 30px;
+}
+
+.festival h1{
+    font: 50px/1 Arial, sans-serif; 
+    margin-bottom: 20px;
+    color: #088b38;
+}
+
+.festival p{
+    margin-bottom: 20px;
+}
+
+.evento {
+    margin: 40px 0;
+}
+
+.evento h3 {
+    font-size: 30px; 
+    margin-bottom: 20px;
+    color: #088b38;
+}
+
+@media screen and (max-width:780px) {
+    .container {
+        width: 100%;
+    }
+
+    .festival figure img {
+        display: none;
+    }
+
+    .evento {
+        margin-left: 30px;
+    }
+}

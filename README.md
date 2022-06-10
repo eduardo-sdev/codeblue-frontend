@@ -38,5 +38,9 @@
             <a href="https://codeblue-frontend-ten.vercel.app/projetos/foto-criativa/index.html"><strong>Foto Criativa</strong></a>
             <img width="110" src="./Imagens/projetos/foto-criativa.png">
         </td>
+        <td>
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/exercicio03/index.html"><strong>Site Responsivo</strong></a>
+            <img width="40" src="./Imagens/projetos/responsiver.png">
+        </td>
     </tr>
 </table>
