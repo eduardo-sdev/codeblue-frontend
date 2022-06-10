@@ -1,13 +1,11 @@
 <h1 align="center">
-    <img  src="./Imagens/Logos/logo-codeblue.png">
+    <img src="./Imagens/Logos/logo-codeblue.png">
 </h1>
 
 <br><br>
 
-# Projeto Curricolo
-
 <p>
-    <a href="https://codeblue-frontend-ten.vercel.app/">Ver Curricolo online</a>
+    <a href="https://codeblue-frontend-ten.vercel.app/">codeblue-frontend-ten.vercel.app</a>
 </p>
 
 # Capitura das aulas
@@ -42,4 +40,3 @@
         </td>
     </tr>
 </table>
-
