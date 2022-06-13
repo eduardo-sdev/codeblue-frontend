@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Raleway:wght@300;500;700&display=swap');
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+img,
+ul,
+li,
+main,
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section
+{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+body{
+  background:#fff;
+  color:#000;
+  font-family: 'Raleway', sans-serif;
+  font-size:16px;
+  line-height:24px;
+}
+ul,
+li{list-style:none;}
+strong{font-weight:bold;}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+
+h1 {
+    text-align: center;
+    margin: 15px 0 14px;
+}
+
+.banner-principal img{
+    width: 100%;
+    margin-bottom: 96px;
+}
+
+.container {
+    max-width: 1136px;
+    margin: 0 auto;
+}
+
+.artigo {
+    margin-bottom: 96px;
+    display: flex;
+}
+
+.artigo h2{
+  font: 700 48px Arial, sans-serif;
+  margin-bottom: 16px;
+  width: 80%;
+}
+
+.artigo p{
+  color: #4d4d4d;
+  line-height: 25px;
+  width: 66%;
+  letter-spacing: 0.04em;
+}
+
+.artigo1 h2{
+  margin-top: 46px;
+}
+
+.artigo1 figure{
+  margin-right: 48px;
+}
+
+.artigo2 article{
+  margin-left: 48px;
+}
+
+.artigo2 p{
+  width: 65%;
+}
+
+.conheca {
+  margin-bottom: 96px;
+}
+
+.conheca section{
+  display: flex;
+  margin: 0 88px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.conheca h3 {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  line-height: 54px;
+}
+
+.conheca p {
+  margin-top: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.conheca strong {
+  display: block;
+}
+
+.conheca a {
+  text-decoration: underline;
+  color: #ff651a;
+}
+
+.receita {
+  padding: 40px 0;
+}
+
+.receita1 {
+  background: #f4dcc3;
+}
+
+.receita2 {
+  background: #E8E7C1;
+}
+
+.receita3 {
+  background: #F4DDD6;
+}
+
+.receita .container > article {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.receita figure {
+  margin-right: 48px;
+}
+
+.receita h2 {
+  font: 700 40px/54px Arial, sans-serif;
+  margin: 32px 0 16px;
+}
+
+.receita p {
+  color: #4d4d4d;
+  line-height: 24px;
+  width: 80%;
+  margin-bottom: 24px;
+  letter-spacing: 0.04em;
+}
+
+.receita h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 24px;
+  margin: 32px 0;
+}
+
+.dica {
+  padding-top: 24px;
+}
+
+.dica p{
+  width: 90%;
+}
+
+.dica p:first-child {
+  margin-top: 48px;
+}
+
+.ecommerce{
+  margin: 96px 0;
+}
+
+.ecommerce > figure{
+  margin-bottom: 24px;
+}
+
+.bolo {
+  display: flex;
+}
+
+.bolo article{
+  margin: auto 0;
+}
+
+.bolo h2{
+  font: 700 40px/54px Arial, sans-serif;
+  margin-bottom: 32px;
+}
+
+.bolo p{
+  font: 16px/24px Arial, sans-serif;
+  width: 80%;
+  margin: 20px 0 30px;
+  letter-spacing: 0.04em;
+}
+
+.ecommerce-flores {
+    display: flex;
+    margin: 96px 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 60px;
+    justify-content: space-between;
+}
+
+.card-flores h3 {
+  width: 80%;
+}
+
+.card-flores .preso-antigo {
+  display: block;
+  color: #4D4D4D;
+  text-decoration: line-through;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.card-flores .preso {
+  display: flex;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  justify-content: space-between;
+  color: #662100;
+}
+
+.card-flores p span {
+  background: #333333;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 10px;
+  border-radius: 2px;
+}
+
+.card-flores button{
+  display: flex;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  padding: 18px;
+  margin-top: 16px;
+  background: #FF8723;
+  justify-content: center;
+  gap: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.card-flores button img{
+  width: 16px;
+}
+
+.card-flores button:hover{
+  background: #ff7c0f;
+}
+
+.footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 779px){
+  .container,
+  .artigo,
+  .conheca section,
+  img
+  {
+    width: 100%;
+    display: block;
+  }
+
+  .receita p,
+  .dica p,
+  .artigo p,
+  .ecommerce p
+  {
+    line-height: 35px;
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .artigo figure{text-align: center;}
+  .artigo1 h2 {margin-left: 60px;}
+
+  .artigo2 {
+    display: flex;
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+
+  .conheca section{margin: 0;}
+  .conheca  article{
+    margin-bottom: 60px;
+  }
+
+  .receita article,
+  .dica {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .receita article,
+  .bolo p,
+  .bolo article
+  {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  .ecommerce-flores {display: block;}
+  .ecommerce-flores .card-flores{margin-bottom: 50px;}
+
+  .footer {margin-top: 200px;}
+}
+
