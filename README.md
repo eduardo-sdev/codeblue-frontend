@@ -43,4 +43,10 @@
             <img width="40" src="./Imagens/projetos/responsiver.png">
         </td>
     </tr>
+    <tr>
+        <td>
+            <img height="200" src="./Imagens/projetos/site-com-ecommerce.png">
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/site-com-ecommerce/index.html"><strong>Site com Ecormmerce</strong></a>
+        </td>
+    </tr>
 </table>

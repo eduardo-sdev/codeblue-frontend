@@ -27,7 +27,7 @@ th,
 td,
 main,
 article,
-aside, 
+aside,
 figure,
 figcaption,
 footer,
@@ -51,7 +51,7 @@ body{
   font-size:14px;
   line-height:1;
 }
-ol, 
+ol,
 ul,
 li{list-style:none;}
 strong{font-family:Arial, Helvetica, sans-serif;}
@@ -207,3 +207,11 @@ iframe {
   color: #ccc;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 779px){
+  .btn-voltar {
+    top: 90%;
+    right: 70%;
+  }
+}
+
