@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-2{
+    width: 12.5%;
+}
+
+@media screen and (max-width: 1024px){
+    .container {
+        max-width: 100%;
+    }
+
+    .m-12{
+        width: 100%;
+    }
+}
+
