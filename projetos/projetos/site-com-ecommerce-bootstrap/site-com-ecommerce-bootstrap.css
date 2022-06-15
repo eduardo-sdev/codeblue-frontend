@@ -1,0 +1,27 @@
+:root {
+  --bs-font-sans-serif: 'Raleway', sans-serif;
+  --bs-font-open-sans: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+  color: #FF651A !important;
+}
+.bg-receita1 {
+  background: #F4DCC3;
+}
+.bg-receita2 {
+  background: #E8E7C1;
+}
+.bg-receita3 {
+  background: #F4DDD6;
+}
+.price-cor {
+  color: #662100;
+}
+.btn-cor {
+  background: #FF8723;
+}
+
+.font-open-sans {
+  font-family: var(--bs-font-open-sans);
+}

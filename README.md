@@ -48,5 +48,9 @@
             <img height="200" src="./Imagens/projetos/site-com-ecommerce.png">
             <a href="https://codeblue-frontend-ten.vercel.app/projetos/site-com-ecommerce/index.html"><strong>Site com Ecormmerce</strong></a>
         </td>
+        <td>
+            <img height="200" src="./Imagens/projetos/site-com-ecommerce-bootstrap.png">
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/site-com-ecommerce-bootstrap/index.html"><strong>Site com Bootstrap</a>
+        </td>
     </tr>
 </table>
