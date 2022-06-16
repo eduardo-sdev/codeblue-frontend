@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'jet';
+    src: url(./fonts/JetBrainsMono-VariableFont_wght.woff);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* .box {
+    width: 300px;
+    height: 300px;
+    background: #009;
+    margin: 30px;
+    border-radius: 30px;
+
+    box-shadow: -10px 10px 10px #000;
+    background: linear-gradient(#099, #993);
+    transform: rotate(120deg);
+} */
+
+body {
+    font-family: 'jet';
+}
+
+h1 {
+    font: 700 Arial, sans-serif;
+    color: #900;
+    text-shadow: 10px 10px 5px #333;
+    /* transform: skew(-40deg); */
+}
+
+.box2:hover img{
+    filter: invert();
+    display: block;
+}
+
+.box2 {
+    position: relative;
+    width: fit-content;
+}
+
+
+.borda {
+    position: absolute;
+    top: 0;left: 0;
+    width: 99%;height: 99%;
+    border: 3px solid red;
+    transition: .3s ease all;
+}
+
+.box2:hover .borda{
+    transform: scale(75%);
+    transition: .3s ease all;
+}
+
+.fundo-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.conteudo-modal {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    background: #fff;
+    transform: translate(-50%, -50%);
+}
+ 
