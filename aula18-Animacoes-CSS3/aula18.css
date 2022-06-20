@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 250px;
+    height: 50px;
+    background: #700;
+    margin: 20px;
+    transition: 1s ease all;
+    border-radius: 10px;
+}
+
+.box:hover {
+    background: #070;
+    transition: 1s ease all;
+    transform: rotate(60deg);
+    width: 300px;
+}
+
+@keyframes anima {
+    from{background: #007;}
+    to{background: #002;}
+    10%{background: #fff;}
+    50%{background: #ccc;}
+    100%{ background: #444;}
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: #007;
+    animation: anima 3s;
+}
+
+.box2 p{
+    opacity: 0;
+    display: block;
+}
+
+.box2:hover p{
+    opacity: 1;
+}
+
+.cards {
+    display: flex;
+    padding-left: 150px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: -150px;
+    transition: .5s ease all;
+}
+
+.card:hover + .card
+{
+    margin-left: -10px;
+}
+
+@keyframes banner-img {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.banner {
+    width: 1000px;
+    margin: 0 auto;}
+
+.banner img{
+    animation: 3s banner-img;}
+
+@keyframes title-banner {
+    0% {opacity: 0;}
+    25% {opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.banner h3{
+    font: bold 30px "Helvetica Neue", sans-serif;
+    color: #090;
+    text-transform: uppercase;
+    animation: 2s title-banner;
+}
+
+@keyframes text-banner {
+    0% {opacity: 0;}
+    50% {opacity: 0;
+        transform: translateX(50%);
+    }
+    100% {opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.text-banner {
+    font: bold 20px "Helvetica Neue", sans-serif;
+    width: 250px;
+    margin: 20px 0;
+    animation: 2s text-banner;
+}
+
+@keyframes botao-banner {
+    0% {opacity: 0;}
+    75% {opacity: 0;
+        transform: translateY(50%);}
+    100% {opacity: 1;
+        transform: translateY(0);}
+}
+
+.botao a{
+    animation: 2s botao-banner;
+}
+
+.botao a{
+    text-decoration: none;
+    color: #fff;
+    background: #070;
+    display: block;
+    padding: 10px 30px;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 3px #333;
+}
+
+.content-banner {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+}
+
