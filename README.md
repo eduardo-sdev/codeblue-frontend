@@ -53,4 +53,10 @@
             <a href="https://codeblue-frontend-ten.vercel.app/projetos/site-com-ecommerce-bootstrap/index.html"><strong>Site com Bootstrap</a>
         </td>
     </tr>
+    <tr>
+        <td>
+            <img height="200" src="./Imagens/projetos/tela-inicial-rede-social.png">
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/tela-inicial-rede-social/index.html"><strong>Tela inicial Rede Social</strong></a>
+        </td>
+    </tr>
 </table>

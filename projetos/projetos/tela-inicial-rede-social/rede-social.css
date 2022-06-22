@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto:wght@300;500;900&display=swap');
+
+:root {
+    --bs-font-sans-serif: 'Roboto', sans-serif;
+    --bs-body-font-size: 13px;
+}
+
+.font-comfortaa {
+    font: 36px 'Comfortaa', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    max-width: 370px;
+}
+
+.btn {
+    display: flex;
+    height: 52px;
+    border: 3px solid black;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.btn-upload{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    background: linear-gradient(202.17deg, #FF00D6 8.58%, #FF4D00 91.42%);
+    border-radius: 20px;
+}
+
+.btn-upload img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fs-6 {
+    font-size: 13px !important;
+}
+
+footer {
+    height: 20vh;
+}
+
