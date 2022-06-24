@@ -58,5 +58,9 @@
             <img height="200" src="./Imagens/projetos/tela-inicial-rede-social.png">
             <a href="https://codeblue-frontend-ten.vercel.app/projetos/tela-inicial-rede-social/index.html"><strong>Tela inicial Rede Social</strong></a>
         </td>
+        <td>
+            <img height="200" src="./Imagens/projetos/rede-social-photo.png">
+            <a href="https://codeblue-frontend-ten.vercel.app/projetos/rede-social-photo/index.html"><strong>Rede Social Photo</strong></a>
+        </td>
     </tr>
 </table>
