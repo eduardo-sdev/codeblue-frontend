@@ -1,0 +1,421 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;900&family=Roboto:wght@300;400;700&display=swap');
+
+/* reset */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+address,
+img,
+strong,
+ul,
+li,
+fieldset,
+form,
+label,
+thead,
+main,
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section
+{
+    border:0;
+    font-size:100%;
+    font:inherit;
+    margin:0;
+    padding:0;
+    vertical-align:baseline;
+    box-sizing: border-box;
+}
+html{scroll-behavior:smooth;}
+body{
+    background:#fff;
+    color:#000;
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+    line-height:1;
+}
+ol,
+ul,
+li{list-style:none;}
+strong{font-family:Arial, Helvetica, sans-serif;}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+}
+a{
+    color:#000;
+    text-decoration:none;
+    cursor:pointer;
+}
+:focus{outline:0;}
+button{
+    border:1px solid #000;
+    text-transform:uppercase;
+    padding:10px 30px;
+    color:#000;
+    font:12px Arial, Helvetica, sans-serif;
+    background:transparent;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+}
+/* butoes */
+.btn {
+    display: flex;
+    height: 52px;
+    padding: 5px auto;
+    margin: 0 15px;
+    border: 3px solid #000;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-dark {
+    background: #000;
+    color: #fff;
+}
+
+/* header */
+.header {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    border-top: 1px solid #B3B3B3;
+    background: #fff;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header .btn-upload{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    background: linear-gradient(202.17deg, #FF00D6 8.58%, #FF4D00 91.42%);
+    border-radius: 20px;
+
+}
+
+.header .btn-upload img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* page home */
+
+.bg-home {
+    position: relative;
+    background: url(../img/bg-home.png) no-repeat;
+    height: 607px;
+}
+
+.bg-home .logo-photo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bg-home article{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 11px;
+    padding-bottom: 20px;
+}
+
+.page-home .usuario div{
+    margin-left: 8px;
+}
+
+.page-home .usuario h2{
+    font-weight: bold;
+}
+
+.page-home .usuario span{
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.page-home .home-btn p {
+    margin-top: 40px;
+}
+
+.home-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.home-btn p {
+    width: 167px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+
+.page-home .home-btn{
+    position: relative;
+    margin: 20px 0;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* page register e login */
+
+.page-register-login img{
+    margin-top: 60px;
+
+}
+.page-register-login h2{
+    margin: 32px 0;
+    font-size: 36px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.page-register-login .inputs p{
+    padding: 17px;
+    margin: 16px 0;
+    border: 2px solid #000;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.page-register-login a{
+    margin: 0;
+}
+
+/* page profile */
+
+.page-profile {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.page-profile figure{
+    margin: 32px 0;
+}
+
+.page-profile h1{
+    font: 36px 'Comfortaa', sans-serif;
+    margin-bottom: 16px;
+}
+
+.page-profile strong{
+    display: block;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.page-profile a{
+    margin-bottom: 16px;
+}
+
+.page-profile .phots{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.page-profile figure {
+    margin: 10px 0;
+}
+
+/* page search */
+.page-search {
+    margin-bottom: 100px;
+}
+
+.page-search h2{
+    margin: 32px 10px;
+    font-size: 36px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.page-search .input{
+    padding: 17px;
+    margin: 16px 10px;
+    border: 2px solid #000;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.page-search .result{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 32px 10px 24px;
+}
+
+.page-search .photos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+    justify-content: center;
+
+}
+
+.page-search .btn{
+    margin-top: 32px;
+}
+
+/* page chats */
+
+.page-chats {
+    margin-bottom: 200px;
+}
+
+.page-chats strong{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.page-chats article a{
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.page-chats figure{
+    margin-right: 16px;
+}
+
+.page-chats h2{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.page-chats p {
+    width: 100%;
+}
+
+/* page chat */
+
+.page-chat {
+    margin-bottom: 200px;
+}
+
+.page-chat section:first-child {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px solid #B3B3B3;
+    margin-bottom: 16px;
+}
+
+.page-chat section:first-child img{
+    position: absolute;
+    left: 0;
+    margin-left: 9px;
+}
+
+.page-chat article{
+    display: flex;
+}
+
+.page-chat .chat {
+    padding: 16px;
+}
+
+.page-chat .chat article{
+    gap: 16px
+}
+
+.page-chat .chat p{
+    padding: 16px;
+    background: #F7F7F7;
+    margin-bottom: 24px;
+}
+
+/* page discover */
+
+.page-discover {
+    margin-bottom: 200px;
+
+}
+
+.page-discover > h2 {
+    margin: 32px 0;
+    padding-left: 10px;
+    font-size: 36px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.page-discover .brawser-today {
+    padding: 0 10px;
+
+}
+
+.page-discover .brawser-today p{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.page-discover .brawser-today .profile{
+    display: flex;
+    margin: 16px 0 48px;
+}
+
+.brawser-today .profile figure{
+    margin-right: 8px;
+}
+
+.brawser-today .profile h2{
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.page-discover .photos strong{
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-bottom: 24px;
+}
+
+.page-discover .photos section{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.page-discover .photos figure{
+    margin-top: 10px;
+}
+
+.page-discover .btn{
+    margin: 32px 10px;
+}
