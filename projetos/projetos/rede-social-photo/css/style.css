@@ -16,7 +16,6 @@ img,
 strong,
 ul,
 li,
-fieldset,
 form,
 label,
 thead,
@@ -46,7 +45,6 @@ body{
     font-size:13px;
     line-height:1;
 }
-ol,
 ul,
 li{list-style:none;}
 strong{font-family:Arial, Helvetica, sans-serif;}
@@ -73,6 +71,7 @@ button{
 .container {
     max-width: 375px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 /* butoes */
 .btn {
@@ -366,56 +365,61 @@ button{
 
 }
 
-.page-discover > h2 {
-    margin: 32px 0;
-    padding-left: 10px;
-    font-size: 36px;
-    font-family: 'Comfortaa', sans-serif;
+.page-discover > h1 {
+    margin: 36px 0;
+    font: 36px 'Comfortaa', sans-serif;
+    letter-spacing: 1px;
 }
 
-.page-discover .brawser-today {
-    padding: 0 10px;
-
-}
-
-.page-discover .brawser-today p{
+.page-discover .subtitle{
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 24px;
 }
 
-.page-discover .brawser-today .profile{
+.page-discover .wrapper-story{
+    overflow-x: scroll;
+}
+
+.page-discover .storys{
+    display: flex;
+    gap: 16px;
+}
+
+.page-discover .storys section{
+    min-width: 100%;
+}
+
+.page-discover .profile{
     display: flex;
     margin: 16px 0 48px;
+    gap: 8px;
+    align-items: center;
 }
 
-.brawser-today .profile figure{
-    margin-right: 8px;
-}
 
-.brawser-today .profile h2{
+.page-discover .profile p{
     font-weight: bold;
     line-height: 15px;
 }
 
-.page-discover .photos strong{
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-left: 10px;
-    margin-bottom: 24px;
+.page-discover .profile a{
+    font: 400 11px 'Roboto', sans-serif;
+    color: rgba(0,0,0,0.8);
 }
 
 .page-discover .photos section{
     display: flex;
-    justify-content: center;
     gap: 9px;
 }
 
-.page-discover .photos figure{
-    margin-top: 10px;
+.page-discover .photos article{
+    width: 100%;
+    display: flex;
+    gap:9px;
+    flex-direction: column;
 }
 
 .page-discover .btn{
-    margin: 32px 10px;
+    margin: 32px 0;
 }
