@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 21 - Formulários</title>
+        <link rel="stylesheet" href="./aula21.css">
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>Dados Pessoais:</legend>
+                <ul>
+                    <li>
+                        <span class="campo">
+                            <label for="name">Nome: </label>
+                        </span>
+                        <input type="text" id="name">
+                    </li>
+                    <li>
+                        <span class="campo">
+                            <label for="name">
+                                E-mail:
+                            </label>
+                        </span>
+                        <input type="text" id="name">
+                    </li>
+                    <li>
+                        <span class="campo">
+                            <label for="phone">
+                                Telefone:
+                            </label>
+                        </span>
+                        <input type="text" id="phone">
+                    </li>
+                    <li class="opcoes">
+                        <span class="campo">
+                            Género:
+                        </span>
+                        <label for="m">
+                        Masculino
+                        </label>
+                        <input type="radio" id="m">
+                        <label for="f">
+                            Feminino
+                        </label>
+                        <input type="radio" id="f">
+                        <label for="outro">
+                            Outro
+                        </label>
+                        <input id="outro" type="radio">
+                    </li>
+                    <li class="opcoes">
+                        <span class="campo">
+                            Conhecimentos:
+                        </span>
+                        <input type="checkbox" id="html"> <label for="html">html</label>
+                    </li>
+                        <span class="campo">
+                            <label for="estado">Estado: </label>
+                        </span>
+                        <select id="estado">
+                            <option>Pernambuco</option>
+                        </select>
+                    <li>
+                    </li>
+                    <li>
+                        <span class="campo">
+                            <label for="msg">Mensagem: </label>
+                        </span>
+                        <textarea id="msg"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="enviar">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>
