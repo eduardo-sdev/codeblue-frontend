@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 22 - Formulários 2 - A Missão!</title>
+        <link rel="stylesheet" href="./aula22.css">
+    </head>
+    <body style="background:#000;color:#fff">
+        <form action="" method="post" enctype="multipart/form">
+            <fieldset>
+                <legend>Mais sobre formulário</legend>
+                <ul>
+                    <li>
+                        <label for="nome">Nome:</label>
+                        <input required type="text" autofocus name="nome" id="nome" placeholder="Digite seu nome completo">
+                    </li>
+                    <li>
+                        <label for="email">email:</label>
+                        <input required autocomplete="off" type="email" name="email" id="email" placeholder="Ex.: contato@empresa.com.br">
+                    </li>
+                    <li>
+                        <label for="senha">senha</label>
+                        <input type="password" name="password" id="senha" placeholder="Digite uma senha">
+                    </li>
+                    <li>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" name="tel" id="telefone" placeholder="(55) 81 99999-9999">
+                    </li>
+                    <li>
+                        <label for="anexo">Anexo:</label>
+                        <input type="file" name="anexo" id="anexo">
+                    </li>
+                    <li>
+                        <label for="qtde">Quantidade:</label>
+                        <input type="range" name="qtde" id="qtde" min="1" max="90" step="0.4">
+                    </li>
+                    <li>
+                        <label for="cor">cor:</label>
+                        <input type="color" name="cor" id="cor">
+                    </li>
+                    <li>
+                        <input type="submit" value="Enviar">
+                        <input type="image" src="../Imagens/Logos/favicon.png">
+                        <input type="reset">
+                        <input type="button" value="botão" id="">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+        <p>
+            <button>Enviar</button>
+        </p>
+    </body>
+</html>
+
