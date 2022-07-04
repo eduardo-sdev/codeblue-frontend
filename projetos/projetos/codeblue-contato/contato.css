@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700;900&display=swap');
+
+/* reset */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+img,
+strong,
+ul,
+li,
+form,
+label,
+main,
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section{
+    border:0;
+    font-size:100%;
+    font:inherit;
+    margin:0;
+    padding:0;
+    vertical-align:baseline;
+}
+html{scroll-behavior:smooth;}
+body{
+    background:#fff;
+    color:#000;
+    font-family: 'Work Sans', sans-serif;
+    font-size:15px;
+    line-height:1;
+}
+ul,
+li{list-style:none;}
+img{width:100%;}
+a{
+    color:#000;
+    text-decoration:none;
+    cursor:pointer;
+}
+:focus{outline:0;}
+
+/* container */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+/* butao whatsapp */
+.btn-whatsapp article{
+    position: fixed;
+    top: 45%;
+    right: -130px;
+    z-index: 99;
+    transition: .6s ease-in-out;
+}
+.btn-whatsapp article:hover {right: 0%;}
+.btn-whatsapp article a{
+    display: flex;
+    align-items: center;
+    background: #62D20A;
+    color: #fff;
+    gap: 12px;
+    padding: 8px 9px;
+}
+.btn-whatsapp article i{font-size: 30px;}
+.btn-whatsapp a span:hover{opacity: .7;}
+
+/* navbar */
+header {
+    background: #405CA3;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    margin: 10px 0;
+}
+
+nav > ul{
+    display: flex;
+    position: relative;
+    gap: 80px;
+}
+
+nav .menu-hamburger {
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #fff;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    display: none;
+}
+
+nav ul li,
+nav a{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff;
+    cursor:pointer;
+}
+
+nav li i{font-size: 9px;}
+
+nav ul ul a{
+    color: #000;
+    margin-bottom: 10px;
+}
+
+nav li ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 35%;
+    margin-top: 50px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+nav li:hover ul{
+    display: block;
+}
+
+nav ul ul li:hover{
+    opacity: 0.7;
+}
+
+/* conteudo */
+main {
+    display: flex;
+}
+
+main h2{
+    color: #000;
+    font:bold 45px/60px 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 12px 0 35px;
+}
+
+main h2 span{
+    display: block;
+    color: #405ca3;
+}
+
+main section {
+    margin-top: 145px;
+}
+
+.info-contact{
+    width: 250px;
+}
+
+.info-contact li{
+    background: #43527a;
+
+}
+.info-contact li:nth-child(2){
+    background: #405CA3;
+
+}
+.info-contact li:nth-child(3) a,
+.info-contact li:nth-child(3){
+    background: #23418A;
+    font-size: 13px;
+}
+
+.info-contact a{
+    display: flex;
+    padding: 25px 15px;
+    color: #fff;
+    align-items: center;
+}
+
+.info-contact i{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+/* formulario */
+.section-form {
+    max-width: 600px;
+    margin: 250px 0px 40px 150px;
+}
+
+.section-form p{
+    color: #404040;
+    margin: 60px 0 40px;
+    line-height: 17px;
+}
+
+.section-form form{
+    width: 550px;
+}
+
+.section-form label {
+    display: flex;
+    color: #405CA3;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.section-form textarea,
+.section-form input {
+    border: 1px solid #404040;
+    width: 100%;
+    margin-bottom: 20px;
+    padding:5px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.section-form input:focus,
+.section-form textarea:focus{
+    border: 2px solid #000;
+}
+
+.section-form textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.section-form input[type="submit"] {
+    width: 30%;
+    padding: 15px 0;
+    text-transform: uppercase;
+    background: #405CA3;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+/* footer */
+footer {background: #405CA3;}
+
+footer a,
+footer section section{
+    color: #fff;
+    display: flex;
+}
+
+footer section article{margin-right: 150px;}
+
+footer h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 60px 0 25px;
+}
+footer h3 .fa-angle-up {display: none;}
+
+footer ul li {
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 12px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+footer ul .icons {margin-top: 30px;}
+footer ul .icons i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+footer p {
+    margin-top: 20px;
+    padding: 30px 0 40px;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+    color: #fff;
+    text-align: center;
+}
+
+footer p span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1698px) {
+    .container {max-width: 900px;}
+
+    footer section article {margin-right: 55px;}
+}
+
+@media (max-width: 998px) {
+    .container {max-width: 600px;}
+
+    nav ul {display: none;}
+    nav .menu-hamburger {display: flex;}
+
+    main {display: block;}
+
+    .section-form {margin: 0;}
+    .section-form input{padding: 12px 0;}
+
+    footer section section {flex-direction: column;}
+
+    footer {position: relative;}
+    footer .parceiros{
+        position: absolute;
+        bottom: 100px;
+        right: 30px;
+    }
+
+    footer h3 .fa-angle-up {
+        display: inline;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 698px) {
+    .container {
+        max-width: 450px;
+        margin-left: 20px;
+    }
+
+    .section-form form{width: 350px;}
+}
+
