@@ -1,0 +1,14 @@
+.cor {
+    color: green;
+}
+
+.text2 {
+    transition:.3s ease;
+}
+
+.exe {
+    color: #009900;
+    font: bold 1.2em/1.5em Arial, Helvetica, sans-serif;
+    transition:.3s ease;
+}
+
