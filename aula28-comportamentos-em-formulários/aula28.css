@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+.form-contato{
+  width: 1000px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.form-contato li {
+  margin: 10px 0;
+}
+
+.form-contato input {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+label.error{
+  border: 1px dashed #f00;
+  color: #f00;
+  padding: 5px;
+  margin: 0 10px;
+  font: 12px 'Courier New', monospace;
+}
+
+{}
+
+{}
+
+{}
+

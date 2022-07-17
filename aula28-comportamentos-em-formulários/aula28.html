@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 27 - Plugins jQuery</title>
+
+    <link rel="stylesheet" href="./aula28.css" />
+  </head>
+  <body>
+    <form action="" method="post" class="form-contato">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <ul>
+          <li>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+          </li>
+          <li>
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ex.: nome@empresa.com.br"
+            >
+          </li>
+          <li>
+            <label for="fone">Telefone: </label>
+            <input
+              type="tel"
+              name="fone"
+              id="fone"
+              placeholder="(55) 5555-5555"
+            >
+          </li>
+          <li>
+            <label for="cpf">Telefone: </label>
+            <input
+              type="tel"
+              name="cpf"
+              id="cpf"
+              placeholder="000.000.00-00"
+            >
+          </li>
+          <li>
+            <input type="submit" value="Enviar">
+          </li>
+        </ul>
+
+      </fieldset>
+    </form>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="./aula28.js"></script>
+  </body>
+</html>
+
