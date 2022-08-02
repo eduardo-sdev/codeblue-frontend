@@ -2,17 +2,27 @@
     <img src="./Imagens/Logos/logo-codeblue.png">
 </h1>
 
-<br><br>
+# Curso front-end CodeBlue
 
 <p>
     <a href="https://codeblue-frontend-ten.vercel.app/">codeblue-frontend-ten.vercel.app</a>
 </p>
 
-# Capitura das aulas
+<h2 align="center">Projeto Final E-commerce (em desenvolvimento)</h2>
 
-[figma](https://www.figma.com/file/ewInWc9b4s9FOFaDe5hZ4S/CodeAcamedy?node-id=0%3A1)
+<p align="center">
+    <img width="400px" src="./Imagens/projetos/projetofinal-ecommerce.png" alt="projeto final Ecormmerce" />
+</p>
 
-# Projetos
+### Desenvolvicom com:
+
+- HTML
+- CSS
+- Javascript/Jquery
+
+[Veja projeto final - Ecormmerce online](https://codeblue-frontend-ten.vercel.app/projetos/projetofinal-ecommerce/index.html)
+
+## Projetos
 
 <table>
     <tr>

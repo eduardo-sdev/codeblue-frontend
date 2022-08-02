@@ -1,0 +1,731 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;500;700&display=swap");
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+img,
+strong,
+ul,
+li,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 16px/1px "Poppins", Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0;
+}
+
+:hover {
+  transition: 0.3s ease;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.button {
+  font: 500 20px/24px "Roboto", sans-serif;
+  text-align: center;
+  padding: 10px 48px;
+  background: #56B280;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #56B280;
+}
+.button:hover {
+  background: #FFFFFF;
+  color: #56B280;
+}
+.button.btn-see-more {
+  display: none;
+  width: 184px;
+  margin: 0 auto;
+}
+
+header {
+  background: #fff;
+  width: 100%;
+  border-bottom: 1px solid rgba(86, 178, 128, 0.2);
+  z-index: 10;
+  z-index: 10;
+}
+header.topo-fixo {
+  position: fixed;
+  top: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #fff;
+  align-items: center;
+  padding: 20px 0;
+  position: relative;
+}
+.header .menu-hamburger {
+  display: none;
+  font-size: 35px;
+}
+.header .menu-hamburger div {
+  width: 32px;
+  height: 3px;
+  background: #272727;
+  margin: 6px;
+}
+.header .menu-hamburger.show .line1 {
+  transform: rotate(-40deg) translate(-8px, 8px);
+}
+.header .menu-hamburger.show .line2 {
+  opacity: 0;
+}
+.header .menu-hamburger.show .line3 {
+  transform: rotate(40deg) translate(-5px, -6px);
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+.header .menu li {
+  font: 500 16px/19px "Roboto", sans-serif;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.header .menu li a {
+  padding: 20px;
+}
+.header .menu li i {
+  font-size: 12px;
+}
+.header .menu li.sub-menu {
+  cursor: pointer;
+  margin-right: 30px;
+}
+.header .menu li.sub-menu p {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header .icons-menu {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  font-size: 25px;
+}
+
+.banner-principal {
+  height: 780px;
+  background: url("../img/fotos/img-banner-principal.png") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner-principal .card-banner {
+  background: rgba(247, 248, 250, 0.8);
+  backdrop-filter: blur(15px);
+  border-radius: 2px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 33px 95px 63px;
+}
+.banner-principal .card-banner h2 {
+  font: 500 40px/58px "Poppins", sans-serif;
+  text-align: center;
+}
+.banner-principal .card-banner h2 img {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+.banner-principal .card-banner p {
+  display: flex;
+  max-width: 537px;
+  font: 18px/25px "Helvetica", Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+.banner-principal .card-banner p .button {
+  margin: 0 10px;
+  margin-top: 45px;
+  width: 310px;
+  cursor: pointer;
+}
+
+.section-benefits {
+  background: #f7f8fa;
+  padding: 133px 0 234px;
+}
+.section-benefits .title h2 {
+  display: flex;
+  align-items: flex-end;
+  width: 350px;
+  height: 105px;
+  font: 500 40px/47px "Poppins", sans-serif;
+  letter-spacing: -0.9px;
+  color: #1d252c;
+}
+.section-benefits .title p {
+  width: 350px;
+  height: 25px;
+  line-height: 23px;
+  color: #56b280;
+  margin: 15px 0 38px;
+}
+.section-benefits section > div {
+  display: flex;
+  position: relative;
+}
+.section-benefits section figure {
+  position: absolute;
+  top: -120px;
+  right: -10px;
+  margin: 30px 0;
+}
+.section-benefits section figure img {
+  background: #fff;
+  box-shadow: 0px 4px 94px rgba(123, 123, 123, 0.35);
+}
+.section-benefits section ul {
+  margin-left: 20px;
+  margin-bottom: 68px;
+}
+.section-benefits section ul li {
+  line-height: 29px;
+  list-style-image: url("../img/icones/check-circle.svg");
+  margin-bottom: 8px;
+}
+.section-benefits section ul li strong {
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.cards .card {
+  filter: drop-shadow(0px 4px 24px rgba(123, 123, 123, 0.15));
+  background: #f7f8fa;
+}
+.cards .card:hover {
+  transform: translateY(-10px);
+}
+.cards .card article {
+  background: #fff;
+  padding: 10px 26px 16px;
+  font: 500 16px/28px "Poppins", sans-serif;
+}
+.cards .card article h2 {
+  letter-spacing: -0.9px;
+  text-align: left;
+}
+.cards .card article p {
+  font-size: 20px;
+  color: #56b280;
+  text-align: right;
+}
+
+.section-products {
+  margin-bottom: 120px;
+}
+
+.section-testimoials {
+  display: flex;
+  background: rgba(86, 178, 128, 0.1);
+}
+.section-testimoials .testimoials {
+  display: flex;
+  gap: 31px;
+  justify-content: space-between;
+  margin: 27px 0 90px;
+}
+.section-testimoials .testimoial {
+  background: #fff;
+  box-shadow: 0px 4px 24px rgba(139, 167, 178, 0.16);
+  border-radius: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.section-testimoials .testimoial img {
+  width: fit-content;
+}
+.section-testimoials .testimoial .description {
+  font: 500 22px/28px "Poppins", sans-serif;
+  width: 270px;
+  letter-spacing: 0.1px;
+  padding: 16px 0 22px;
+}
+.section-testimoials .testimoial .description span {
+  display: block;
+  font: 400 18px/21px "Helvetica", sans-serif;
+  text-align: center;
+  color: #7c8087;
+  margin-top: 6px;
+}
+
+.title-section {
+  text-align: center;
+  margin: 90px 0 60px;
+}
+.title-section h2 {
+  font: 500 40px/57px "Poppins", sans-serif;
+  letter-spacing: -0.9px;
+  color: #0b254b;
+}
+.title-section p {
+  font: 500 18px/27px "Poppins", sans-serif;
+  letter-spacing: 0.1px;
+  color: #5e6e89;
+}
+
+.page-product {
+  display: flex;
+  margin: 47px 0 114px;
+  position: relative;
+}
+.page-product .product .cart {
+  display: flex;
+  gap: 115px;
+  margin-bottom: 40px;
+}
+.page-product .product h2 {
+  font: 500 26px/58px "Poppins", sans-serif;
+  letter-spacing: -0.9px;
+}
+.page-product .product figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.page-product .product figure img {
+  width: fit-content;
+}
+.page-product .product .quantity p {
+  font: 600 26px/58px "Poppins", sans-serif;
+  letter-spacing: -0.9px;
+  color: #56b280;
+  margin-bottom: 26px;
+}
+.page-product .product .quantity > article {
+  width: 75px;
+  font: 18px/26px "Roboto", sans-serif;
+}
+.page-product .product .quantity > article label {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -0.9px;
+  color: #272727;
+  margin-bottom: 10px;
+}
+.page-product .product .quantity div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30px;
+  border: 1px solid #56b280;
+}
+.page-product .product .quantity button {
+  padding: 5px;
+  border: none;
+  background: transparent;
+  color: #56b280;
+  font-size: 20px;
+  cursor: pointer;
+}
+.page-product .product .quantity input {
+  width: 20px;
+  border: 0;
+}
+.page-product .product .checkboxs input,
+.page-product .product .checkboxs label {
+  cursor: pointer;
+}
+.page-product .product .checkboxs > article {
+  margin: 18px 20px;
+}
+.page-product .product .checkboxs label {
+  font: 400 16px/16px "Roboto", sans-serif;
+  letter-spacing: -0.9px;
+  margin-left: 20px;
+}
+.page-product .product .checkboxs select {
+  width: 75px;
+  font: 400 14px/16px "Roboto";
+  letter-spacing: -0.9px;
+  padding: 3px 4px;
+  margin-left: 10px;
+  color: #272727;
+}
+.page-product .product .checkboxs .check-subscribe {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 67px;
+}
+.page-product .product .checkboxs .check-subscribe article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.page-product .product .checkboxs .check-subscribe p {
+  font: 400 16px/16px "Helvetica";
+  color: #818181;
+}
+.page-product .product .checkboxs .check-subscribe p a {
+  font-size: 14px;
+  color: #56b280;
+}
+.page-product .product .checkboxs .button {
+  width: 100%;
+}
+.page-product .product .product-description {
+  border: 1px solid #e6e6e6;
+  border-radius: 7px;
+  padding: 22px;
+  font: 400 16px/26px "Helvetica", sans-serif;
+}
+.page-product .product .product-description p {
+  color: #849a8e;
+}
+.page-product .product .product-description p span {
+  font: 400 16px "Roboto";
+  color: #1d252c;
+}
+.page-product .free-shopping {
+  display: flex;
+  align-items: end;
+  padding-right: 30px;
+}
+.page-product .free-shopping p {
+  font: 500 22px/26px "Poppins", sans-serif;
+  text-align: center;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #272727;
+  width: 540px;
+}
+.page-product .free-shopping p span {
+  display: block;
+  color: #56b280;
+  text-align: center;
+  text-transform: uppercase;
+  font: 700 20px/26px "Roboto", "Poppins", sans-serif;
+  letter-spacing: -0.8px;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 70px;
+  background: #272727;
+  color: #fff;
+}
+
+.footer {
+  padding-top: 60px;
+}
+.footer .logo-footer {
+  width: 250px;
+  padding-top: 16px;
+}
+.footer .logo-footer img {
+  width: fit-content;
+  padding-bottom: 9px;
+}
+.footer .logo-footer p {
+  line-height: 23px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 510px;
+  padding: 43px 2px 115px;
+}
+.footer .footer-links div {
+  display: flex;
+}
+.footer .footer-links article {
+  width: 170px;
+}
+.footer .footer-links article p {
+  font: 500 16px/29px "Poppins", sans-serif;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #56B280;
+  margin-bottom: 24px;
+}
+.footer .footer-links article ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer .footer-links article ul a {
+  color: #fff;
+}
+.footer section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+}
+
+footer .rights {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  color: #5E6E89;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+  .header {
+    justify-content: space-around;
+  }
+  .cards {
+    justify-content: center;
+  }
+  .banner-principal .card-banner {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .section-testimoials .wrapper {
+    overflow-x: scroll;
+  }
+  .section-benefits {
+    display: flex;
+    margin: 0 auto;
+  }
+  .section-benefits .title {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .section-benefits .title p {
+    margin: 10px auto;
+  }
+  .section-benefits section > div {
+    flex-direction: column-reverse;
+  }
+  .section-benefits section > div figure {
+    position: static;
+  }
+  .section-benefits section > div figure img {
+    width: fit-content;
+  }
+  .page-product {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .page-product .product {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+  .page-product .product figure {
+    position: static;
+  }
+  .page-product .product .cart {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 0;
+  }
+  .page-product .product .quantity {
+    display: flex;
+    margin-top: 15px;
+  }
+  .page-product .product .quantity p {
+    margin-bottom: 0;
+    margin-right: 110px;
+  }
+  .page-product .product .checkboxs .check-subscribe {
+    margin: 0;
+  }
+  .page-product .product .checkboxs .button {
+    margin: 25px 0 23px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .button.btn-see-more {
+    display: block;
+  }
+  .header .menu-hamburger {
+    display: block;
+  }
+  .header nav {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    position: absolute;
+    top: -200px;
+    background: #fff;
+    transition: all 0.4s ease;
+    border-bottom: 1px solid rgba(86, 178, 128, 0.2);
+    z-index: -1;
+  }
+  .header nav.show {
+    top: 75px;
+  }
+  .header .menu {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 42px;
+  }
+  .header .menu .sub-menu > p {
+    flex-direction: row-reverse;
+  }
+  .header .menu li {
+    padding: 10px;
+    font: 400 24px/28px "Roboto", sans-serif;
+  }
+  .header .menu li a {
+    padding: 20px;
+  }
+  .cards .card {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .cards .card:hover {
+    transform: translateY(-10px);
+  }
+  .cards .card article {
+    padding: 0 11px;
+    position: absolute;
+    width: 296px;
+    bottom: -7px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .section-benefits {
+    padding: 120px 0 45px;
+  }
+  .section-benefits section figure {
+    margin: 60px auto;
+  }
+  .section-benefits section ul {
+    margin: 0 auto;
+    width: 345px;
+  }
+  .section-benefits section ul li {
+    line-height: 28px;
+  }
+  .section-benefits section article p {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  .section-testimoials {
+    width: 100%;
+    justify-content: center;
+  }
+  .section-testimoials .wrapper {
+    overflow-x: scroll;
+  }
+  .section-testimoials .testimoial .description {
+    font-size: 19px;
+  }
+  .page-product .product {
+    max-width: 400px;
+  }
+  .footer {
+    padding: 60px 15px 0;
+  }
+  .footer section {
+    display: block;
+  }
+  .footer .logo-footer {
+    width: 100%;
+  }
+  .footer .footer-links {
+    padding: 52px 0 85px;
+    gap: 40px;
+  }
+  .footer .footer-links div {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .banner-principal {
+    width: 100%;
+    background: url("../img/fotos/img-banner-principal-mobile.png") center no-repeat;
+    background-size: cover;
+  }
+  .banner-principal .card-banner {
+    padding: 41px 15px 43px;
+    width: 299px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
