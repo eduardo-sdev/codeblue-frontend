@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lant="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Execicios Jquery</title>
+        <link rel="stylesheet" href="./execicios-jquery.css">
+    </head>
+    <body>
+        <header class="container">
+            <section class="menu">
+                <h1>Viajens</h1>
+                <ul>
+                    <li><a href="#">Pasagens a'ereas</a></li>
+                    <li><a href="#">Hospendagem</a></li>
+                    <li><a href="#">Oferta</a></li>
+                </ul>
+            </section>
+        </header>
+
+        <main class="container">
+            <section>
+                <ul class="main-banner">
+                    <li><img src="./img/banner-montanha.png" alt="montanhas"></li>
+                    <li><img src="./img/banner-por-do-sol.png" alt=""></li>
+                    <li><img src="./img/banner-praia.png" alt=""></li>
+                    <li><img src="./img/banner-serra.png" alt=""></li>
+                </ul>
+            </section>
+            <section class="carousel">
+                <ul>
+                    <li>
+                        <article class="card">
+                            <a href="./img/estrada-e-montanha.png" data-lightbox="roadtrip">
+                                <img src="./img/estrada-e-montanha.png" alt="">
+                            </a>
+                            <div>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Accusantium deleniti sequi,
+                                    ullam porro commodi sed perspiciatis enim
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card">
+                            <a href="./img/montanha-neves.png" data-lightbox="roadtrip">
+                                <img src="./img/montanha-neves.png" alt="">
+                            </a>
+                            <div>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Accusantium deleniti sequi,
+                                    ullam porro commodi sed perspiciatis enim
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="card">
+                        <a  data-lightbox="roadtrip" href="./img/motanha.png">
+                            <img src="./img/motanha.png" alt="">
+                        </a>
+                        <div>
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Accusantium deleniti sequi,
+                                ullam porro commodi sed perspiciatis enim
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <article class="card">
+                        <a href="./img/ponte-no-lago.png" data-lightbox="roadtrip">
+                            <img src="./img/ponte-no-lago.png" alt="">
+                        </a>
+                        <div>
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Accusantium deleniti sequi,
+                                ullam porro commodi sed perspiciatis enim
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <article class="card">
+                        <a data-lightbox="roadtrip" href="./img/praia-e-montanha.png">
+                            <img src="./img/praia-e-montanha.png" alt="">
+                        </a>
+                        <div>
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Accusantium deleniti sequi,
+                                ullam porro commodi sed perspiciatis enim
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <article class="card">
+                        <a data-lightbox="roadtrip" href="./img/praia.png">
+                            <img src="./img/praia.png" alt="">
+                        </a>
+                        <div>
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Accusantium deleniti sequi,
+                                ullam porro commodi sed perspiciatis enim
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="form">
+                <form action="#" method="POST">
+                    <legend>Reserva Passagem</legend>
+                    <ul>
+                        <li>
+                            <label for="nome">Nome: </label>
+                            <input
+                                id="nome"
+                                type="text"
+                                name="nome"
+                                placeholder="digite seu nome completo"
+                            >
+                        </li>
+                        <li>
+                            <label for="email">Email: </label>
+                            <input
+                                id="email"
+                                type="email"
+                                name="email"
+                                placeholder="Digite seu email"
+                            >
+                        </li>
+                        <li>
+                            <label for="phone">Telefone: </label>
+                            <input
+                                id="phone"
+                                type="tel"
+                                name="phone"
+                                placeholder="Digite seu telefone:(99) 99999-9999 "
+                            >
+                        </li>
+                        <li>
+                            <label for="voar-de">Voar de: </label>
+                            <input
+                                id="voar-de"
+                                type="text"
+                                name="voar_de"
+                                placeholder="Cidade ou aeroporto de partida"
+                            >
+                        </li>
+                        <li>
+                            <label for="voar-para">Para</label>
+                            <input
+                                id="voar-para"
+                                type="text"
+                                name="voar_para"
+                                placeholder="Cidade ou aeroporto de chegada"
+                            >
+                        </li>
+                        <li>
+                            <label for="data-ida">Ida:</label>
+                            <input
+                                id="data_ida"
+                                type="date"
+                                name="data_ida"
+                                placeholder="Data"
+                            >
+                        </li>
+                        <li>
+                            <label for="data-volta">Volta:</label>
+                            <input
+                                id="data-volta"
+                                type="date"
+                                name="data_volta"
+                                placeholder="Opcional"
+                            >
+                        </li>
+                        <li>
+                            <label for="passageiros">Passageiros:</label>
+                            <input
+                                id="passageiros"
+                                type="number"
+                                name="passageiros"
+                                placeholder="01"
+                            >
+                        </li>
+                        <li>
+                            <input
+                                id="passageiros"
+                                type="submit"
+                                value="Enviar"
+                            >
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./execicios-jquery.js"></script>
+    </body>
+</html>
+
